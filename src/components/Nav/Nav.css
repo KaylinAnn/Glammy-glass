@@ -1,9 +1,8 @@
-.home {
+.nav {
   height: 100vh;
 }
 
 header {
-  height: 40%;
 }
 
 .top-nav {
@@ -16,7 +15,7 @@ header {
   justify-content: space-around;
 }
 
-.social-media-container{
+.social-media-container {
   height: 100%;
   width: 30%;
   /* background: green; */
@@ -25,13 +24,12 @@ header {
   align-items: center;
 }
 
-
-.fab{
+.fab {
   font-size: 30px;
   color: grey;
 }
 
-.signin-cart-container{
+.signin-cart-container {
   /* background: pink; */
   width: 50%;
   display: flex;
@@ -42,4 +40,29 @@ header {
 
 .line {
   font-size: 30px;
+}
+
+.title {
+  padding: 50px 0 30px 0;
+  /* background: fuchsia; */
+  font-family: "Lovers Quarrel", cursive;
+  font-size: 110px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.nav-container {
+  /* padding: 20px; */
+  margin: 0 30%;
+  /* background: salmon; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+}
+
+.bottom-border {
+  margin-top: 20px;
+  border-bottom: solid rgba(209, 208, 208, 0.63) 1px;
+  width: 100vw;
 }
