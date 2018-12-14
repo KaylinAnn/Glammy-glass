@@ -1,0 +1,45 @@
+.home {
+  height: 100vh;
+}
+
+header {
+  height: 40%;
+}
+
+.top-nav {
+  /* background: blueviolet; */
+  height: 50px;
+  width: 35%;
+  margin-left: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-media-container{
+  height: 100%;
+  width: 30%;
+  /* background: green; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.fab{
+  font-size: 30px;
+  color: grey;
+}
+
+.signin-cart-container{
+  /* background: pink; */
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 21px;
+}
+
+.line {
+  font-size: 30px;
+}
