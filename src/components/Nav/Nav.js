@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 
 export class Nav extends Component {
   render() {
@@ -33,19 +34,38 @@ export class Nav extends Component {
             <div className="line">|</div>
             <div className="signin-cart-container">
               <div>SIGN IN or RESGISTER</div>
-              <div>CART</div>
+              <Link className="link" to="/cart">
+                <div className="cart">CART</div>
+              </Link>
             </div>
           </div>
         </header>
         <div>
-          <h2 className="title">Glammy Glass</h2>
+          <Link className="title" to="/">
+            <button className="title">Glammy Glass</button>
+          </Link>
           <div className="nav-container">
-            <div>SHOP</div>
-            <div>HOME</div>
-            <div>VISIT</div>
-            <div>LEARN</div>
-            <div>CUSTOM</div>
-            <div>CONTACT US</div>
+            <Link className="link" to="/shop">
+              <div>SHOP</div>
+            </Link>
+            <Link className="link" to="/">
+              <div>HOME</div>
+            </Link>
+            <Link className="link" to="/findus">
+              <div>VISIT</div>
+            </Link>
+            <Link className="link" to="/aboutus">
+              <div>LEARN</div>
+            </Link>
+            <Link className="link" to="/custom">
+              <div>CUSTOM</div>
+            </Link>
+            <Link className="link" to="/contactus">
+              <div>CONTACT US</div>
+            </Link>
+            <Link className="link" to="/GALLERY">
+              <div>GALLERY</div>
+            </Link>
           </div>
           <div className="bottom-border" />
         </div>
