@@ -7,20 +7,20 @@ export class Home extends Component {
     const glammyHomeImgs = [
       {
         original:
-          "https://res.cloudinary.com/dclawygaw/image/upload/v1544820538/wedding-stuff-banner_2.png"
+          "https://res.cloudinary.com/dclawygaw/image/upload/v1547056939/weddingglammy.jpg"
       },
       {
         original:
-          "https://res.cloudinary.com/dclawygaw/image/upload/v1544815324/15111091_1233396400064155_6450213301282374989_o.jpg"
+          "https://res.cloudinary.com/dclawygaw/image/upload/v1547055425/miscglammy.jpg"
       },
       {
         original:
-          "https://res.cloudinary.com/dclawygaw/image/upload/v1544819598/wedding-banner_2.png"
-      },
-      {
-        original:
-          "https://res.cloudinary.com/dclawygaw/image/upload/v1544815322/14379902_1168818926521903_8113176059438335496_o.jpg"
+          "https://res.cloudinary.com/dclawygaw/image/upload/v1547057085/3basesglammy2.jpg"
       }
+      // {
+      //   original:
+      //     "https://res.cloudinary.com/dclawygaw/image/upload/v1547054963/glammyshow2.jpg"
+      // }
     ];
     return (
       <div className="home">
