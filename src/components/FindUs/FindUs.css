@@ -1,0 +1,82 @@
+.find-us {
+  height: 100vh;
+  /* background: darkkhaki; */
+  margin: 20px auto;
+}
+
+.find-us-intro {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0px;
+  font-size: 30px;
+}
+
+h2 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+ul {
+  font-size: 20px;
+  padding: 0 30px;
+}
+
+li {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.item:hover a p.new-label span {
+  display: none;
+}
+
+.item:hover a p.sedona:after {
+  content: "The Hangin Tree";
+}
+
+.item:hover a p.havasu:after {
+  content: "blah";
+}
+
+.item:hover a p.arrowhead:after {
+  content: "Timberline In the Glen";
+}
+
+.item:hover a p.obispo:after {
+  content: "Madonna Inn";
+}
+
+.new-label:hover {
+  color: rgb(85, 85, 85);
+}
+
+a {
+  color: black;
+  text-decoration: none !important;
+}
+
+.new-label {
+  margin: 4px !important;
+}
+
+.cali-locations {
+  width: 30%;
+}
+
+.arizona-locations {
+  width: 30%;
+}
+
+.locations-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
