@@ -73,6 +73,10 @@ a {
   width: 30%;
 }
 
+.calendar {
+  height: 700px;
+}
+
 .locations-container {
   width: 60%;
   margin: 0 auto;
