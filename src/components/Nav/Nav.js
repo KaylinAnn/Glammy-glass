@@ -63,7 +63,7 @@ export class Nav extends Component {
             <Link className="link" to="/contactus">
               <div>CONTACT US</div>
             </Link>
-            <Link className="link" to="/GALLERY">
+            <Link className="link" to="/gallery">
               <div>GALLERY</div>
             </Link>
           </div>
