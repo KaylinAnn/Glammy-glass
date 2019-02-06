@@ -1,0 +1,5 @@
+docker run -p 5432:5432 -v c:/Users/kaylin/pg-data:/var/lib/postgresql/data --name pg postgres:10
+docker run -d -e POSTGRES_PASSWORD=password -p 5432:5432 --name pg postgres:10
+
+
+
