@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Shop.css";
 import axios from "axios";
 import { connect } from "react-redux";
 import { getAllProducts } from "../../Redux/reducer";
@@ -14,20 +15,26 @@ export class Shop extends Component {
     const { products } = this.props;
 
     const mappedProducts = products.map(product => {
-      console.log(product);
-
       return (
-        <div key={product.productid}>
+        <div className="product-container" key={product.productid}>
+          <img
+            className="main-image"
+            src={product.imgUrl[0]}
+            alt="glass"
+            // add currentTtarget.class to reformat secons img
+            onMouseOver={e => (e.currentTarget.src = product.imgUrl[1])}
+            onMouseOut={e => (e.currentTarget.src = product.imgUrl[0])}
+          />
+
           <h1>{product.productname}</h1>
-          <p>{product.description}</p>
           <h2>${product.price}</h2>
         </div>
       );
     });
 
     return (
-      <div>
-        <div>{mappedProducts}</div>
+      <div className="shop">
+        <div className="shop-container">{mappedProducts}</div>
       </div>
     );
   }

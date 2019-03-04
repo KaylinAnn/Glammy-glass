@@ -13,6 +13,7 @@ export class Nav extends Component {
                 className="icon"
                 href="https://www.facebook.com/pg/glammyglassdesigns/photos/?ref=page_internal"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook-square" />
               </a>
@@ -20,6 +21,7 @@ export class Nav extends Component {
                 className="icon"
                 href="https://www.instagram.com/glammy_glass/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-instagram" />
               </a>
@@ -27,6 +29,7 @@ export class Nav extends Component {
                 className="icon"
                 href="https://twitter.com/glammyglass"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-twitter-square" />
               </a>
